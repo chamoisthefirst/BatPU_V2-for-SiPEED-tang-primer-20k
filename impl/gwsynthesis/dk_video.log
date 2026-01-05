@@ -1,0 +1,74 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\cpuClock.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\dvi_tx\dvi_tx.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\gowin_rpll\TMDS_rPLL.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\patterntesting.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\screenBufferer.v'
+WARN  (EX3792) : Literal value 'd34 truncated to fit in 5 bits("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\screenBufferer.v":321)
+WARN  (EX3792) : Literal value 'd38 truncated to fit in 5 bits("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\screenBufferer.v":321)
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\testpattern.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\top.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\video_top.v'
+Compiling module 'top'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\top.v":1)
+Compiling module 'video_top'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\video_top.v":24)
+Compiling module 'screenBufferer'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\screenBufferer.v":15)
+WARN  (EX3780) : Using initial value of 'scale' since it is never assigned("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\screenBufferer.v":196)
+WARN  (EX3780) : Using initial value of 'px_limit' since it is never assigned("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\screenBufferer.v":197)
+WARN  (EX3780) : Using initial value of 'dsp_shft' since it is never assigned("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\screenBufferer.v":211)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 8("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\screenBufferer.v":302)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 8("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\screenBufferer.v":303)
+Compiling module 'TMDS_rPLL'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\gowin_rpll\TMDS_rPLL.v":9)
+Compiling module 'DVI_TX_Top'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\dvi_tx\dvi_tx.v":1048)
+Compiling module '**'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\dvi_tx\dvi_tx.v":1047)
+Compiling module 'clock'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\cpuClock.v":17)
+Compiling module 'cpu'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":1)
+Extracting RAM for identifier 'callStack'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":23)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 2("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":134)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 4("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":135)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 4("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":136)
+WARN  (EX3791) : Expression size 16 truncated to fit in target size 4("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":137)
+WARN  (EX3791) : Expression size 16 truncated to fit in target size 8("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":138)
+WARN  (EX3791) : Expression size 16 truncated to fit in target size 10("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":139)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":152)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":166)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":176)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":184)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":194)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":213)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":232)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":251)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":270)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":279)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":288)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":298)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":311)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":317)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":318)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":325)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":334)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":341)
+WARN  (EX1998) : Net 'instructions[0][15]' does not have a driver("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\CPU.v":25)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+WARN  (DI0002) : Asynchronous register "buffer_h[2]" initial values do not match with the Gowin library, simulation mismatch possible("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\screenBufferer.v":247)
+WARN  (DI0002) : Asynchronous register "buffer_h[3]" initial values do not match with the Gowin library, simulation mismatch possible("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\src\screenBufferer.v":247)
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\impl\gwsynthesis\dk_video.vg" completed
+[100%] Generate report file "C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\HDMI\impl\gwsynthesis\dk_video_syn.rpt.html" completed
+GowinSynthesis finish

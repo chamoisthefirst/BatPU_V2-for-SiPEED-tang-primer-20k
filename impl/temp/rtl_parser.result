@@ -1,0 +1,88 @@
+[
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/patterntesting.v",
+  "InstLine" : 17,
+  "InstName" : "testpattern2",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/patterntesting.v",
+  "ModuleLine" : 17,
+  "ModuleName" : "testpattern2"
+ },
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/testpattern.v",
+  "InstLine" : 17,
+  "InstName" : "testpattern",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/testpattern.v",
+  "ModuleLine" : 17,
+  "ModuleName" : "testpattern"
+ },
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/top.v",
+    "InstLine" : 24,
+    "InstName" : "hdmi4",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/video_top.v",
+    "ModuleLine" : 24,
+    "ModuleName" : "video_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/video_top.v",
+      "InstLine" : 85,
+      "InstName" : "testpattern_inst",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/screenBufferer.v",
+      "ModuleLine" : 15,
+      "ModuleName" : "screenBufferer"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/video_top.v",
+      "InstLine" : 130,
+      "InstName" : "u_tmds_rpll",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/gowin_rpll/TMDS_rPLL.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "TMDS_rPLL"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/video_top.v",
+      "InstLine" : 147,
+      "InstName" : "DVI_TX_Top_inst",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/dvi_tx/dvi_tx.v",
+      "ModuleLine" : 1048,
+      "ModuleName" : "DVI_TX_Top",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/dvi_tx/dvi_tx.v",
+        "InstLine" : 1079,
+        "InstName" : "rgb2dvi_inst",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/dvi_tx/dvi_tx.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "~rgb2dvi.DVI_TX_Top"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/top.v",
+    "InstLine" : 40,
+    "InstName" : "cpuClk",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/cpuClock.v",
+    "ModuleLine" : 17,
+    "ModuleName" : "clock"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/top.v",
+    "InstLine" : 45,
+    "InstName" : "cpu",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/HDMI/src/CPU.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "cpu"
+   }
+  ]
+ }
+]

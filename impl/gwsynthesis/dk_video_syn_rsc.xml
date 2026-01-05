@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" T_Register="4329(0)" T_Alu="107(0)" T_Lut="3656(0)">
+ <SubModule name="hdmi4" Register="25" Lut="54" T_Register="205(25)" T_Alu="68(0)" T_Lut="2135(54)">
+  <SubModule name="testpattern_inst" Register="107" Lut="1864" T_Register="107(107)" T_Lut="1864(1864)"/>
+  <SubModule name="u_tmds_rpll"/>
+  <SubModule name="DVI_TX_Top_inst" Register="73" Alu="68" Lut="217" T_Register="73(73)" T_Alu="68(68)" T_Lut="217(217)"/>
+ </SubModule>
+ <SubModule name="cpuClk" Register="34" Alu="31" Lut="14" T_Register="34(34)" T_Alu="31(31)" T_Lut="14(14)"/>
+ <SubModule name="cpu" Register="4090" Alu="8" Lut="1507" T_Register="4090(4090)" T_Alu="8(8)" T_Lut="1507(1507)"/>
+</Module>
